@@ -10,7 +10,7 @@ import pytz
 
 db_uri ='postgresql://postgres:admin@localhost:5432/postgres'
 local_timezone = pytz.timezone('America/Mexico_City')
-api = 'f8d08d4f541038a5ff5ca021ce9801f6'
+api = '###'
 engine = create_engine(db_uri)
 
 def req(city,tyrq):
